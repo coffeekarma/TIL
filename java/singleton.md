@@ -1,4 +1,4 @@
-#Singleton
+#Singleton Pattern
 
 An Enum with only one element is the best way to make sure that only one instance exists at all times:
 
@@ -10,3 +10,4 @@ public enum Elvis {
     public void leaveTheBuilding() { ... }
 }
 ```  
+(Avoid Singletons if possible)
