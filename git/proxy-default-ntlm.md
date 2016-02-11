@@ -9,6 +9,6 @@ git config --global http.proxy https://:@proxy:port
 To remove proxy settings use:
 
 ```
-git config --global --unset core.gitproxy
+git config --global --unset http.proxy
 ```
 
