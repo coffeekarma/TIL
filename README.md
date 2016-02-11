@@ -39,6 +39,7 @@ variety of languages and technologies.
 
 - [Type inference](java/type-inference.md)
 - [Builder pattern](java/builder-pattern.md)
+- [Singleton](java/singleton.md)
 
 ---
 
