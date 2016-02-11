@@ -9,19 +9,23 @@ variety of languages and technologies.
 
 ### Categories
 
-[Linux](#linux)
-[Windows](#windows)
-[Databases](#databases)
-[java](#java)
-[git](#git)
+* [Linux](#linux)
+* [Windows](#windows)
+* [Databases](#databases)
+* [java](#java)
+* [git](#git)
 
 ---
 
 ### Linux
 
+- [Best way to follow log output](linux/best-way-to-follow-log.md)
+
 ---
 
 ### Windows
+
+- [Open console anywhere](windows/open-console-anywhere.md)
 
 ---
 
@@ -32,6 +36,9 @@ variety of languages and technologies.
 ---
 
 ### Java
+
+- [Type inference](java/type-inference.md)
+- [Builder pattern](java/builder-pattern.md)
 
 ---
 
