@@ -20,7 +20,7 @@ variety of languages and technologies.
 ### Linux
 
 - [Best way to follow log output](linux/best-way-to-follow-log.md)
-- [Locating files](locating-files.md)
+- [Locating files](linux/locating-files.md)
 
 ---
 
