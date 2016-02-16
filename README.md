@@ -12,8 +12,8 @@ variety of languages and technologies.
 * [Linux](#linux)
 * [Windows](#windows)
 * [Databases](#databases)
-* [java](#java)
-* [git](#git)
+* [Java](#java)
+* [Git](#git)
 
 ---
 
