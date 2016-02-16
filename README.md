@@ -40,7 +40,8 @@ variety of languages and technologies.
 
 - [Type inference](java/type-inference.md)
 - [Builder pattern](java/builder-pattern.md)
-- [Singleton](java/singleton.md)
+- [Singleton](java/singleton.md) 
+- [Remote debug](java/remote-debug.md)
 
 ---
 
