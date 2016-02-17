@@ -8,11 +8,11 @@ To get automated updates running on a Debian system install the unattended-upgra
 sudo apt-get install unattended-upgrades
 ```
 
-Add the user(s) who should be informed about updates to the configuration:
+Add the mail adress(es) who should be informed about updates to the configuration:
 ```
 sudo vim /etc/apt/apt.conf.d/50unattended-upgrades
 
-Unattended-Upgrade::Mail "root"; // Add the relevant user(s)
+Unattended-Upgrade::Mail "root"; // Add the relevant mail(s)
 ``` 
 
 To activate run:
