@@ -17,6 +17,6 @@ Unattended-Upgrade::Mail "root"; // Add the relevant user(s)
 
 To activate run:
 ```
-dpkg-reconfigure -plow unattended-upgrades
+sudo dpkg-reconfigure -plow unattended-upgrades
 ```
 
