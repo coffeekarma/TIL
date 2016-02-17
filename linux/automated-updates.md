@@ -12,7 +12,7 @@ Add the addresses who should be informed about updates to the configuration:
 ```
 sudo vim /etc/apt/apt.conf.d/50unattended-upgrades
 
-Unattended-Upgrade::Mail "root"; // Add the relevant mail addresses
+Unattended-Upgrade::Mail "foo@example.com"; // Add the relevant mail addresses
 ``` 
 
 To activate run:
