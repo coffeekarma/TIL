@@ -21,6 +21,7 @@ variety of languages and technologies.
 
 - [Best way to follow log output](linux/best-way-to-follow-log.md)
 - [Locating files](linux/locating-files.md)
+- [Automated updates](linux/automated-updates.md)
 
 ---
 
