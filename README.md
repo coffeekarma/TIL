@@ -23,6 +23,7 @@ variety of languages and technologies.
 - [Locating files](linux/locating-files.md)
 - [Automated updates](linux/automated-updates.md)
 - [Analysing disc usage](linux/Analysing-disc-usage.md)
+- [Upgrading debian distribution](distribution-upgrade-debian.md)
 
 ---
 
