@@ -51,5 +51,6 @@ variety of languages and technologies.
 ### Git
 
 - [Proxy with Default NTLM credentials](git/proxy-default-ntlm.md)
+- [Using pageant with eGit](git/using-pageant.md)
 
 ---
