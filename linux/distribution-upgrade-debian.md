@@ -1,4 +1,4 @@
-# Upgrading the debian distribution
+# Upgrading debian distribution
 
 ### Packageupdate
   - sudo vim /etc/apt/sources.list -> update apt-sources, eg. replace "wheezy" with "jessie"
