@@ -1,6 +1,6 @@
-### Show free database space 
+# Show free database space 
 
-#Mysql:
+###Mysql:
 This statement is especially useful for mysql, since innodb tables do not release disk space for the operating system after deleting huge chunks of data. 
 ```SQL
 SELECT table_schema "Data Base Name",
