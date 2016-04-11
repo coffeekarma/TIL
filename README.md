@@ -36,6 +36,7 @@ variety of languages and technologies.
 ### Databases
 
 - [Show current querys](databases/show-current-querys.md)
+- [Show free space](databases/show-free-space.md)
 
 ---
 
