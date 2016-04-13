@@ -24,6 +24,7 @@ variety of languages and technologies.
 - [Automated updates](linux/automated-updates.md)
 - [Analysing disc usage](linux/Analysing-disc-usage.md)
 - [Upgrading debian distribution](linux/distribution-upgrade-debian.md)
+- [Initial debian setup](linux/initial-debian-setup.md)
 
 ---
 
