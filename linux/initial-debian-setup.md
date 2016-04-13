@@ -17,7 +17,7 @@ Setup steps after login into a new debian root server / VM for the first time.
    #no passwd for all users because of ssh-certificate-auth
    %sudo   ALL=(ALL:ALL)NOPASSWD:ALL,!SU,!SHELLS
    ```
-  - add users (write a reusable script): 
+  - add users and their ssh publickeys (write a reusable script): 
    ```bash
    adduser --disabled-password --shell /bin/bash USERNAME
    adduser USERNAME sudo
