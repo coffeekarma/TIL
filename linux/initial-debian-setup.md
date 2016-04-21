@@ -2,7 +2,7 @@
 
 Setup steps after login into a new debian root server / VM for the first time.
 
-  - edit /etc/hostname -> configure hostname
+  - edit /etc/hostname and /etc/hosts -> configure hostname
   - edit /etc/network/interfaces -> configure network, ip, gateway -> "service networking restart" or reboot the server
   - configure proxy in /etc/apt/apt.conf (eg. http://domain\user:password@proxy:80)
   - apt-get install ssh sudo su 
