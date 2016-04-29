@@ -12,10 +12,10 @@ umount /dev/mapper/volumename
 
 Following steps apply for both variants:
 ```bash
-e2fsck -fy /dev/mapper/volumename
-resize2fs -p /dev/mapper/volumename 40G
-lvreduce -L 40G /dev/mapper/volumename
-e2fsck -fy /dev/mapper/volumename 
+e2fsck -fy /dev/mapper/volumenametoshrink
+resize2fs -p /dev/mapper/volumenametoshrink 40G
+lvreduce -L 40G /dev/mapper/volumenametoshrink
+e2fsck -fy /dev/mapper/volumenametoshrink
 
 lvextend -l +100%FREE /dev/mapper/volumenametoextend
 resize2fs -p /dev/mapper/volumenametoextend
