@@ -15,4 +15,7 @@ Following steps apply for both variants:
 e2fsck -fy /dev/mapper/volumename
 resize2fs -p /dev/mapper/volumename 40G
 lvreduce -L 40G /dev/mapper/volumename
+e2fsck -fy /dev/mapper/volumename 
+
+lvextend -l +100%FREE /dev/mapper/volumenametoextend
 ```
