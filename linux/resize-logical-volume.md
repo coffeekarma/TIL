@@ -18,5 +18,5 @@ lvreduce -L 40G /dev/mapper/volumename
 e2fsck -fy /dev/mapper/volumename 
 
 lvextend -l +100%FREE /dev/mapper/volumenametoextend
-resize2fs -p /dev/mapper/vg0-bar
+resize2fs -p /dev/mapper/volumenametoextend
 ```
