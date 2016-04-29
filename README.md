@@ -25,7 +25,7 @@ variety of languages and technologies.
 - [Analysing disc usage](linux/Analysing-disc-usage.md)
 - [Upgrading debian distribution](linux/distribution-upgrade-debian.md)
 - [Initial debian setup](linux/initial-debian-setup.md)
-- [Resize a logical volume](resize-logical-volume.md)
+- [Resize a logical volume](linux/resize-logical-volume.md)
 
 ---
 
