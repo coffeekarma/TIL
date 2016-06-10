@@ -26,6 +26,7 @@ variety of languages and technologies.
 - [Upgrading debian distribution](linux/distribution-upgrade-debian.md)
 - [Initial debian setup](linux/initial-debian-setup.md)
 - [Resize a logical volume](linux/resize-logical-volume.md)
+- [Defining functions](linux/define-functions.md)
 
 ---
 
