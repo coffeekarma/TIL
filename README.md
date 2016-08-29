@@ -27,6 +27,7 @@ variety of languages and technologies.
 - [Initial debian setup](linux/initial-debian-setup.md)
 - [Resize a logical volume](linux/resize-logical-volume.md)
 - [Defining functions](linux/define-functions.md)
+- [Docker install script example](linux/dockerinstall.md)
 
 ---
 
