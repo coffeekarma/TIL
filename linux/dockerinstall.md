@@ -33,7 +33,7 @@ apt-get install -y --force-yes docker-engine
 # setup registry certificate
 
 mkdir /etc/docker/certs.d
-certdir="/etc/docker/certs.d/DE9899SRZ.remondis-de.local:28080"
+certdir="/etc/docker/certs.d/DE9899SRZ.domain.local:28080"
 mkdir $certdir
 
 echo -----BEGIN CERTIFICATE----- > $certdir/ca.crt
