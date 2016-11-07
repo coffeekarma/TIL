@@ -28,6 +28,7 @@ variety of languages and technologies.
 - [Resize a logical volume](linux/resize-logical-volume.md)
 - [Defining functions](linux/define-functions.md)
 - [Docker install script example](linux/dockerinstall.md)
+- [Reset forgotten root password](linux/reset-root-password.md)
 
 ---
 
