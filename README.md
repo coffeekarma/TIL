@@ -35,6 +35,7 @@ variety of languages and technologies.
 ### Windows
 
 - [Open console anywhere](windows/open-console-anywhere.md)
+- [Docker machine proxy setup](windows/docker-machine-proxy-setup.md)
 
 ---
 
