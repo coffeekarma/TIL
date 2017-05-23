@@ -1,4 +1,4 @@
-### Simple bash script to install docker. This is just an example, needs to be adjusted for other cases of application
+### Simple bash script to install docker. This is just an example, needs to be adjusted for other applications
 
 ```bash
 #!/bin/bash
