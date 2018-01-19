@@ -1,0 +1,8 @@
+---
+- hosts: local
+  become: true
+  tasks:
+    - name: create sql dumps per service
+      shell: "docker exec dev-postgres pg_dump -U postgres -Fp {{ item }}_service > /root/testdata/initscript/{{item}}.sql"
+      with_items: "{{ renew_services }}"
+#{{ item }}-db

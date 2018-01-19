@@ -1,0 +1,19 @@
+develop:
+  children:
+    local:
+      hosts:
+        localhost:
+          ansible_connection: local
+          ansible_become_pass: mustermann
+          docker_host: localhost:2375
+          intellijdir: /IntellijProjects/
+    test:
+      hosts:
+        example
+    docker:
+      hosts:
+        example2
+      children:
+        registry:
+          hosts:
+            example3

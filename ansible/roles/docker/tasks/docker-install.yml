@@ -1,0 +1,38 @@
+---
+- hosts: registry
+  become: true
+  tasks:
+    - name: Uninstall older docker version
+      apt: 
+        name: "{{ item }}"
+        state: absent        
+      with_items:
+        - docker
+        - docker-engine
+        - docker.io 
+
+    - name: Ensure docker dependencies are installed.
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - apt-transport-https
+        - ca-certificates
+        - curl 
+        - gnupg2 
+        - software-properties-common
+
+    - name: Add Docker’s official GPG key 
+      shell: curl --proxy "{{ http_proxy }}" -fsSL https://download.docker.com/linux/{{ ansible_distribution|lower }}/gpg | sudo apt-key add -
+
+    - name: Add Docker repository
+      environment: 
+        http_proxy: "{{ http_proxy }}"
+      apt_repository:
+        repo: "deb [arch=amd64] https://download.docker.com/linux/{{ ansible_distribution|lower }} {{ ansible_distribution_release|lower }} stable"
+        state: present
+
+    - name: Install Docker-CE
+      apt:
+        name: docker-ce
+        state: present

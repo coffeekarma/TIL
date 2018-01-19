@@ -1,0 +1,24 @@
+---
+- name: Assemble sql for dev database
+  become: true  
+  vars: 
+    rel_script_path: /src/main/resources/db
+    tmp_path: /Ansible/tmp
+    database_host: test
+  hosts: local
+  tasks:
+  - name: cleanup tmp dir
+    file: 
+      state: absent
+      path: "{{tmp_path}}"
+  - name: recreate tmp dir
+    file: 
+      state: directory
+      path: "{{tmp_path}}"
+  - name: copy sql scripts
+    shell: "cp {{intellijdir}}{{item}}-service{{rel_script_path}}/initialize_database.sql {{tmp_path}}/{{item | basename}}"
+    with_items: "{{ renew_services }}"
+  - name: assemble sql scripts
+    assemble:
+      src: "{{tmp_path}}"
+      dest: "{{tmp_path}}/merged_initialize_database.sql"

@@ -1,0 +1,15 @@
+---
+
+- name: Change dev database
+  become: true  
+  vars: 
+    database_host: localhost
+  hosts: local
+  tasks:
+  - name: Replace host in config
+    lineinfile: 
+      path: "{{ intellijdir }}{{ item }}-service/application-dev.yml"
+      regexp: '^(.*)url: "jdbc:postgresql'
+      line: "\\1url: \"jdbc:postgresql://{{ database_host }}:5432/{{item}}_service?user={{item}}_service&password=example\""
+      backrefs: yes
+    with_items: "{{ renew_services }}"

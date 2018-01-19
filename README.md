@@ -14,6 +14,7 @@ variety of languages and technologies.
 * [Databases](#databases)
 * [Java](#java)
 * [Git](#git)
+* [Ansible](#ansible)
 
 ---
 
@@ -62,3 +63,10 @@ variety of languages and technologies.
 - [Using pageant with eGit](git/using-pageant.md)
 
 ---
+
+### Ansible
+
+- [Ansible examples](ansible/ansible-examples.md)
+
+---
+

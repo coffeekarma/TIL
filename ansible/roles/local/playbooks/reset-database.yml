@@ -1,0 +1,30 @@
+---
+
+- name: Reset local database
+  become: true  
+  hosts: local
+  tasks:
+  - name: Install pip
+    apt:
+      name: python-pip
+      state: present
+      update_cache: yes
+
+  - name: Install docker-py
+    pip:
+      name: docker-py
+      executable: pip
+      state: present
+      extra_args: --proxy {{http-proxy}}
+
+  - name: Start Postgres Container 
+    docker_container:
+      docker_host: "{{ docker_host }}"
+      name: dev-postgres
+      image: postgres
+      state: started
+      pull: true
+      ports:
+        - "5432:5432"
+      env:
+        POSTGRES_PASSWORD: admin

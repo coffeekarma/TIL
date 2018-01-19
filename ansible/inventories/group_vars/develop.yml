@@ -1,0 +1,10 @@
+---
+# user account used to ssh the hosts
+remote_user: eidecker 
+http-proxy: example
+renew_services:
+  - material
+  - organization
+  - plant
+  - user
+  - weighing
