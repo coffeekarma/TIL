@@ -28,7 +28,6 @@ variety of languages and technologies.
 - [Initial debian setup](linux/initial-debian-setup.md)
 - [Resize a logical volume](linux/resize-logical-volume.md)
 - [Defining functions](linux/define-functions.md)
-- [Docker install script example](linux/dockerinstall.md)
 - [Reset forgotten root password](linux/reset-root-password.md)
 
 ---
@@ -69,4 +68,9 @@ variety of languages and technologies.
 - [Ansible examples](ansible/ansible-examples.md)
 
 ---
+
+### Docker
+
+- [Docker install script example](docker/dockerinstall.md)
+- [Remove unresponsive docker containers](docker/remove-unresponsive-containers.md)
 
