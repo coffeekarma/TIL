@@ -24,6 +24,7 @@ variety of languages and technologies.
 - [Locating files](linux/locating-files.md)
 - [Automated updates](linux/automated-updates.md)
 - [Analysing disc usage](linux/Analysing-disc-usage.md)
+- [Analysing network traffic with tcpflow](linux/analyse-network-with-tcpflow.md)
 - [Upgrading debian distribution](linux/distribution-upgrade-debian.md)
 - [Initial debian setup](linux/initial-debian-setup.md)
 - [Resize a logical volume](linux/resize-logical-volume.md)
